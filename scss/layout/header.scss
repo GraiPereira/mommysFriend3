@@ -21,11 +21,14 @@ header {
 @media (max-width: 576px)
 {
     header {
-        height: 10vh;
+        height: 23vh;
         width: 100%;
     }
     header img {
         width: 11vh;
         height: 10vh;
     }
+    .navbar{
+        --bs-navbar-brand-padding-y: 8vh;
+        }
 }
